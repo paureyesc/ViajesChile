@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+  margin:0px;
+  border: 0px;
+  padding: 0px;
+  padding-top:0px;
+  font-family: "DM Sans", sans-serif;
+}
+
+/*
+nav{
+  background-color: #2e9ca7
+}
+*/
+
+
+
+
+
+#PresentacionViajes{
+  background-color: black;
+  color: white;
+  padding: 3rem 3rem;
+}
+
+#titulo-presentacion{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  object-fit: contain;
+  
+}
+
+#PresentacionViajes{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+
+
+
