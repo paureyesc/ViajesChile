@@ -5,7 +5,12 @@
   border: 0px;
   padding: 0px;
   padding-top:0px;
-  font-family: "DM Sans", sans-serif;
+}  
+  
+  
+body{
+font-family: "DM Sans", sans-serif;
+  color:white;
 }
 
 /*
@@ -18,28 +23,94 @@ nav{
 
 
 
-#PresentacionViajes{
-  background-color: black;
-  color: white;
-  padding: 3rem 3rem;
-}
 
-#titulo-presentacion{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  object-fit: contain;
-  
-}
+
+
 
 #PresentacionViajes{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 1rem;
+  background-color: black;
+  color: white;
+  padding: 2rem 2rem;
+}
+
+#cuadroceleste{
+  background-color: #2e9ca7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  object-fit: contain;
+}
+
+i{
+  font-size: 25px;
+  color: white;
+  
+}
+
+hr{
+  color: rgb(73, 73, 73);
+}
+
+#SectionDestacados{
+  background-color: black;
+  
+}
+#destacados{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  object-fit: contain;
+}
+#cardsContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0rem 3rem;
+  gap: 2rem;
+  background-color:black;
+}
+
+
+.card{
+  background-color: #2e9ca7;
+  color: white;
+}
+
+#FormularioViajes{
+  background-color: black;
 }
 
 
 
+#contacto{
+  text-align: center;
+  padding-top:3rem;
+}
 
+
+#divcontenedorformulario{
+  padding: 0rem 3rem 2rem;
+  
+}
+
+footer{
+  background-color:#2e9ca7;
+  
+}
+
+#divcontenedorfooter{
+  display: flex;
+  justify-content: center;
+  align-items: right;
+  gap:15rem ;
+  padding: 1rem 1rem;
+}
+
+.btn {
+  background-color: #2e9ca7;
+}
