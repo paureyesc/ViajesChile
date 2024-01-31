@@ -28,7 +28,7 @@
       src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"
     ></script> 
 
-    <script src="./assets/js/main.js"></script>
+    <script defer src="./assets/js/main.js"></script>
 
     <script src="https://kit.fontawesome.com/a7ec36130a.js" crossorigin="anonymous"></script>
     <title>Viajes Chile</title>
@@ -40,25 +40,25 @@
     <nav class="navbar fixed-top navbar-expand-lg bg  
     py-2 px-4" data-bs-theme="dark">
       <div class="container-fluid">
-        <a class="navbar-brand text-white" href="#">
+        <a class="navbar-brand text-white d-flex justify-content-end align-items-end" href="#">
           <img src="./assets/img/viajes.svg" alt="Logo" width="30" height="24">Viajes Chile</a>
         
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
+          <ul class="navbar-nav d-flex justify-content-end align-items-end">
             <li class="nav-item">
               <a class="nav-link" aria-current="page" href="#">Inicio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link " href="#">Quienes Somos</a>
+              <a id="quienessomoslink" class="nav-link " href="#PresentacionViajes">Quienes Somos</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Destacados</a>
+              <a id="destacadoslink" class="nav-link" href="#destacados">Destacados</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contacto</a>
+              <a id="contactolink" class="nav-link" href="#contacto">Contacto</a>
             </li>
           </ul>
         </div>
@@ -93,7 +93,7 @@
 
 
 
-    <section id="PresentacionViajes">
+    <section id="PresentacionViajes" class="d-none d-sm-block">
 <div>
   <h5>¿QUIENES SOMOS?</h5>
 </div>

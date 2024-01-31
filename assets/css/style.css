@@ -64,6 +64,7 @@ hr{
   justify-content: center;
   align-items: center;
   object-fit: contain;
+  padding: 2rem 0rem 0rem 0rem;
 }
 #cardsContainer {
   display: flex;
@@ -113,4 +114,9 @@ footer{
 
 .btn {
   background-color: #2e9ca7;
+}
+
+
+html {
+  scroll-behavior: smooth;
 }
