@@ -37,6 +37,13 @@ nav{
   padding: 2rem 2rem;
 }
 
+
+#divquienessomos{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  object-fit: contain;
+}
 #cuadroceleste{
   background-color: #2e9ca7;
   display: flex;
@@ -119,4 +126,8 @@ footer{
 
 html {
   scroll-behavior: smooth;
+}
+
+button {
+  --bs-tooltip-bg: var(--bs-primary);
 }

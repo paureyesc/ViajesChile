@@ -21,17 +21,16 @@
 
     <!--Estilos Propios-->
     <link rel="stylesheet" href="./assets/css/style.css" />
-
+    
+    <title>Viajes Chile</title>
     <!--JQUERY CDN-->
     <script
-      defer
       src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"
     ></script> 
-
     <script defer src="./assets/js/main.js"></script>
 
     <script src="https://kit.fontawesome.com/a7ec36130a.js" crossorigin="anonymous"></script>
-    <title>Viajes Chile</title>
+    
   </head>
 
 
@@ -94,13 +93,13 @@
 
 
     <section id="PresentacionViajes" class="d-none d-sm-block">
-<div>
+<div id="divquienessomos" >
   <h5>¿QUIENES SOMOS?</h5>
 </div>
       <div class="container">
         <div class="row">
           <hr>
-          <div class="col-sm-4">
+          <div id="parrafo1" class="col-sm-4">
             <h3 id="cuadroceleste">
               <i class="fa-solid fa-plane"></i></h3>
             <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus autem aliquam quis maxime, nihil repellat ullam sit, in impedit vero quia, consectetur exercitationem quod assumenda temporibus eos soluta praesentium sunt?
@@ -128,19 +127,22 @@
   
 
 <section id="SectionDestacados">
-<h5 id="destacados">DESTACADOS</h5>
+  <div>
+    <h5 id="destacados">DESTACADOS</h5>
+  </div>
+
     <hr>
     <section id="cardsContainer" class="">
       <div>
         
       </div>
       <div class="card col-sm-12 col-md-2">
-        <img
+        <img id="img1"
           src="./assets/img/card1.jpg"
           class="card-img-top"
           alt="..." 
         />
-        <div class="card-body">
+        <div id="divimg1" class="card-body">
           <h5 class="card-title">Necessitatibus architecto</h5>
           <p class="card-text">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus.
@@ -149,13 +151,13 @@
       </div>
       
       <div class="card col-sm-12 col-md-2">
-        <img
+        <img id="img2"
           src="./assets/img/card2.jpg"
           class="card-img-top"
           alt="..."
         />
         <div class="card-body">
-          <h5 id="titulo-tiramisu" 
+          <h5
           class="card-title">Congue fermentum </h5>
           <p 
           class="card-text">
@@ -165,7 +167,7 @@
       </div>
       
       <div class="card col-sm-12 col-md-2">
-        <img
+        <img 
           src="./assets/img/card3.jpg"
           class="card-img-top"
           alt="..."
@@ -181,7 +183,7 @@
       </div>
 
       <div class="card col-sm-12 col-md-2">
-        <img
+        <img 
           src="./assets/img/card4.jpg"
           class="card-img-top"
           alt="..."
@@ -218,7 +220,7 @@
           <label for="exampleFormControlTextarea1">Mensaje</label>
           <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
         </div>
-        <button type="button" class="btn btn-outline-light">Enviar</button>
+        <button type="button" class="btn btn-outline-light" data-toggle="tooltip" data-placement="top" title="Enviar">Enviar</button>
       </form>
     </di>
     </section>
@@ -231,13 +233,16 @@
       <h5 id="titulofooter">VIAJES CHILE</h5> 
     </div>
     <div id="divfooter2">
-      <i class="fa-brands fa-github"></i>
-      <i class="fa-brands fa-linkedin"></i>
-      <i class="fa-brands fa-square-twitter"></i>
-      <i class="fa-brands fa-square-facebook"></i>
+      <a href="https://github.com/" alt="GitHub"><i class="fa-brands fa-github"></i></a>
+      <a href="https://cl.linkedin.com/" alt="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+      <a href="https://twitter.com/?lang=es" alt="Twitter"><i class="fa-brands fa-square-twitter"></i></a>
+      <a href="https://www.facebook.com/" alt="Facebook"><i class="fa-brands fa-square-facebook"></i></a>
     </div>
   </div>
     </footer>
 
+
+
+    
   </body>
 </html>
