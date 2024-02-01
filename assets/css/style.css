@@ -128,6 +128,5 @@ html {
   scroll-behavior: smooth;
 }
 
-button {
-  --bs-tooltip-bg: var(--bs-primary);
-}
+
+
